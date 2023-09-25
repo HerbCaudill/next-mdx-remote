@@ -60,7 +60,5 @@ ${error?.message}
 ${codeFrames ? '\n' + codeFrames + '\n' : ''}
 More information: https://mdxjs.com/docs/troubleshooting-mdx`)
 
-  formattedError.stack = ''
-
   return formattedError
 }
